@@ -1,0 +1,81 @@
+body{
+    font-family: Arial,sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+header{
+    background-color: #2e8b57;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+nav{
+    background-color: #444;
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    margin: 0;
+}
+nav ul li a{
+    display: block;
+    padding: 15px 20px;
+    color: white;
+    text-decoration: none;
+
+}
+a:hover{
+    background-color: #666;
+    font-style: italic;
+    font-variant: small-caps;
+    border-radius: 50%;
+    color: darkblue;
+    cursor: pointer ;
+    
+}
+.main{
+    display: flex;
+    padding: 20px;
+}
+aside{
+    width: 30%;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+article{
+    width: 70;
+    padding: 20px;
+}
+footer{
+    background-color: #2e8b57;
+    color: white;
+    text-align: center;
+    padding: 10px;
+
+}
+
+h1{
+    text-decoration-color: blue;
+    text-shadow: 15px 10px 7px #eee;
+    text-transform: capitalize;
+    animation-name: test;
+    animation-duration: 3s;
+    animation-direction:reverse;
+    animation-fill-mode: backwards;
+    animation-timing-function: ease-in-out;
+
+}
+@keyframes test{    
+    50%{
+        font-size: 30px;
+        font-weight: 10px;
+        color: blue;
+        
+    }
+}
